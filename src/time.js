@@ -1,6 +1,6 @@
 const timeLeft = document.querySelector("h1");
 // change this time to next year
-var countDownDate = new Date("Jan 1, 2025 00:00:00").getTime();
+var countDownDate = new Date("Jan 1, 2026 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -27,3 +27,4 @@ var x = setInterval(function() {
     timeLeft.innerText = `HAPPYNEWYEAR!!!`
   }
 }, 1000);
+
